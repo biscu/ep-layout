@@ -37,13 +37,23 @@ const items = [
     icon: RectangleVertical,
   },
   {
-    title: "Two Columns Modal",
+    title: "Two Columns Full Page",
     url: "/TwoColModal",
     icon: SquareSplitHorizontal,
   },
   {
-    title: "One Column Modal",
+    title: "One Column Full Page",
     url: "/OneColModal",
+    icon: Square,
+  },
+  {
+    title: "Dialog",
+    url: "/Dialog",
+    icon: Square,
+  },
+  {
+    title: "Sheet",
+    url: "/Sheet",
     icon: Square,
   },
 ]
