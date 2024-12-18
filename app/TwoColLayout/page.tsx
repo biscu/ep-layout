@@ -19,15 +19,17 @@ export default function Home() {
       <Header label="Two Columns Layout"/>
       <div className="flex sm:flex-row gap-6 flex-col max-w-[1176px] justify-start">
         <div className="flex flex-col md:w-1/3 sm:w-full rounded-lg overflow-hidden h-fit">
-          <ListItem />
-          <ListItem />
-          <ListItem />
+          <ListItem noIcon />
+          <ListItem noIcon />
+          <ListItem noIcon />
         </div>
         <div className="flex flex-col md:w-2/3 sm:w-full rounded-lg overflow-hidden h-fit">
-          <ListItem />
-          <ListItem />
-          <ListItem /> 
-          <ListItem />
+        <h2 className="text-2xl pt-0">Heading section</h2>
+          <ListItem noIcon />
+          <ListItem noIcon />
+          <h2 className="text-2xl py-4">Heading section</h2>
+          <ListItem noIcon /> 
+          <ListItem noIcon />
         </div>
       </div>
       <div className="flex items-center space-x-2">

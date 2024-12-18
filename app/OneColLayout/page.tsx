@@ -20,10 +20,10 @@ export default function Home() {
       <Header label="One Columns Layout"/>
       <div className="flex sm:flex-row gap-6 flex-col max-w-[800px]">
         <div className="flex flex-col w-full rounded-lg overflow-hidden h-fit">
-          <ListItem />
-          <ListItem />
-          <ListItem /> 
-          <ListItem />
+          <ListItem noIcon />
+          <ListItem noIcon />
+          <ListItem noIcon /> 
+          <ListItem noIcon />
         </div>
       </div>
       <div className="flex items-center space-x-2">
