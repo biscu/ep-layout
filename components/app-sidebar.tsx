@@ -61,7 +61,7 @@ const items = [
           <ThemeToggle/>
           </div>
       <SidebarContent>
-        <SidebarGroup className="pt-20">
+        <SidebarGroup className="pt-18">
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (

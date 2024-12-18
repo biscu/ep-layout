@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 export default function Home() {
   return (
     <>
-    <main className="flex bg-white flex-col items-center p-6 gap-6 min-h-screen dark:bg-neutral-900 rounded-lg">
+    <main className="flex bg-white  flex-col items-center p-6 gap-6 min-h-screen dark:bg-neutral-900 rounded-lg">
       <div className="w-full max-w-3xl flex flex-col gap-6">
       <Header label="One Columns Full Page"/>
       <div className="flex gap-6 w-full flex-col-reverse md:flex-row">

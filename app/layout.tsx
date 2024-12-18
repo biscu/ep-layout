@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F5F4F9] dark:bg-neutral-800`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-neutral-900`}
       >
         <ThemeProvider
             attribute="class"
@@ -40,7 +40,7 @@ export default function RootLayout({
           >
         <SidebarProvider>
         <AppSidebar />
-        <main className="w-full p-6 bg-[#F5F4F9] dark:bg-neutral-800 rounded-lg">
+        <main className="w-full p-6  rounded-lg">
         {/* <TopNav /> */}
         {children}
       </main>

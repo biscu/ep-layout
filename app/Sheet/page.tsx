@@ -14,7 +14,7 @@ import {
 export default function Home() {
   return (
     <>
-      <main className="flex bg-white flex-col items-center p-6 gap-6 min-h-screen dark:bg-neutral-900 rounded-lg">
+      <main className="flex bg-white h-screen flex-col items-center p-6 gap-6 min-h-screen dark:bg-neutral-900 rounded-lg">
         <div className="w-full flex flex-col gap-6">
           <Header label="Sheet" />
           <div className="flex gap-6 w-full">
