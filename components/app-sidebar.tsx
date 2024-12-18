@@ -47,13 +47,8 @@ const items = [
     icon: Square,
   },
   {
-    title: "Dialog",
+    title: "Modal & Sheet",
     url: "/Dialog",
-    icon: Square,
-  },
-  {
-    title: "Sheet",
-    url: "/Sheet",
     icon: Square,
   },
 ]
