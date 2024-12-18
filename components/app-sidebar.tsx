@@ -38,12 +38,12 @@ const items = [
   },
   {
     title: "Two Columns Full Page",
-    url: "/TwoColModal",
+    url: "/TwoColPage",
     icon: SquareSplitHorizontal,
   },
   {
     title: "One Column Full Page",
-    url: "/OneColModal",
+    url: "/OneColPage",
     icon: Square,
   },
   {
