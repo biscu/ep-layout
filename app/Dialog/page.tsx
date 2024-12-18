@@ -20,13 +20,13 @@ export default function Home() {
         <div className="w-full flex flex-col gap-6">
           <Header label="Dialog" />
           <div className="flex gap-6 w-full ">
-            <Dialog>
+          <Dialog>
               <DialogTrigger asChild>
                 <Button>Open</Button>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
-                  <DialogTitle>This is a BUGGED dialog, trying to fix it</DialogTitle>
+                  <DialogTitle>This is a dialog</DialogTitle>
                   <DialogDescription>
                     It has a fixed size of 512px and it centered on the screen.
                   </DialogDescription>
