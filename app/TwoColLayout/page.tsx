@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
     <main className="flex bg-white flex-col h-screen p-6 gap-6 dark:bg-neutral-900 rounded-lg">
-    <div className={`flex flex-col gap-6 ${isToggled ? 'mx-auto w-full max-w-[1176px]' : ''}`}> 
+    <div className={`flex flex-col gap-6 ${isToggled ? 'mx-auto w-full max-w-[1224px]' : ''}`}> 
       <Header label="Two Columns Layout"/>
       <div className="flex sm:flex-row gap-6 flex-col max-w-[1176px] justify-start">
         <div className="flex flex-col md:w-1/3 sm:w-full rounded-lg overflow-hidden h-fit">
