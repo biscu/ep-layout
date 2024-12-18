@@ -3,6 +3,8 @@ import { ListItem } from "@/components/list-item";
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { Switch } from "@/components/ui/switch"
+import { Label } from "@/components/ui/label"
 
 export default function Home() {
   const [isToggled, setIsToggled] = useState(false);
@@ -28,7 +30,10 @@ export default function Home() {
           <ListItem />
         </div>
       </div>
-      <Button variant="outline" className="max-w-[1176px]" onClick={toggleClasses}>Swap Center / Left</Button>
+      <div className="flex items-center space-x-2">
+      <Switch id="container-toggle" checked={isToggled} onCheckedChange={toggleClasses} />
+      <Label htmlFor="container-toggle">Center</Label>
+      </div>
       </div>
       </ main>
     </>
